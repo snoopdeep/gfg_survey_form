@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>GeeksforGeeks Survey form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <h1>GeeksforGeeks Survey Form</h1>
+  <form class="form" action="mailto:snoopdeep7@gmail.com" method="post" enctype="text/plain">
+    <div class="form_control">
+      <label for="name">Name</label><br>
+      <input type="text" name="Name" id="name" value="" placeholder="Enter your Name">
+
+    </div>
+    <div class="form_control">
+      <label for="email">Email</label><br>
+      <input type="email" name="Email" id="email" value="" placeholder="Enter your Email">
+
+    </div>
+    <div class="form_control">
+      <label for="age">Age</label><br>
+      <input type="text" name="Age" id="email" placeholder="Enter your age" value="">
+
+    </div>
+
+    <div class="form_control">
+      <label for="about">Which option best describes you?</label>
+      <select class="" id="role" name="Role">
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+
+      </select>
+    </div>
+    <div class="form_control">
+      <label for="">Would you recommed GeeksforGeeks to a friend?</label>
+
+      <label for="recommed-1"><input type="radio" name="Recommendation for gfg" id="recommed-1" value="Yes+">Yes</label>
+
+      <label for="recommed-2"> <input type="radio" name="Recommendion for gfg" id="recommed-2" value="No">No</label>
+
+      <label for="recommed-3"><input type="radio" name="Recommendion for gfg" id="recommed-3" value="Maybe">Maybe</label>
+
+    </div>
+
+
+
+    <div class="form_control">
+      <label for="">Language and frameworks known <small>(check all that apply)</small> </label>
+
+      <label for="inp_1"><input type="checkbox" name="Input-1" value="C">C</label>
+
+      <label for="inp_2"><input type="checkbox" name="Input-2" value="Cpp">C++</label>
+
+      <label for="inp_3"><input type="checkbox" name="Input-3" value="Java">Java</label>
+
+      <label for="inp_3"><input type="checkbox" name="Input-4" value="Python">Python</label>
+
+      <label for="inp_4"><input type="checkbox" name="Input-5" value="C#">C#</label>
+
+      <label for="inp_5"><input type="checkbox" name="Input-6" value="JavaScript">JavaScript</label>
+
+      <label for="inp_6"><input type="checkbox" name="Input-7" value="Angular">Angular</label>
+
+    </div>
+    <div class="form_control">
+      <label for="comment">Any comments or suggestions</label>
+      <textarea name="Comments/suggestions" rows="8" cols="20" placeholder="Enter your comment here!"></textarea>
+
+    </div>
+    <button type="submit" value="submit" name="">submit</button>
+
+    <p>©snoopdeep.All Rights Reserved</p>
+
+
+  </form>
+
+</body>
+
+</html>
